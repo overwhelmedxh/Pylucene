@@ -1,17 +1,4 @@
-#-*-coding:utf-8-*- 
-from fastapi import FastAPI,status
-import uvicorn
-import json
-from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
-import node_search_n
-import para_search_n
-import text_search_n
-import lucene
-from java.io import File
-from org.apache.lucene.search import IndexSearcher,TermQuery
-from org.apache.lucene import store, queryparser
+
 from org.apache.lucene.index import DirectoryReader, Term
 from org.apache.lucene.analysis.standard import StandardAnalyzer
 
