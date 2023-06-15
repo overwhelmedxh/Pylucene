@@ -6,8 +6,6 @@ from org.apache.lucene.analysis.standard import StandardAnalyzer
 
 app = FastAPI(
     title="Single Page API",
-    description="Temp use",
-    version="0.1",
 )
 
 
