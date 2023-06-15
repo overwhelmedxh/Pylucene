@@ -8,7 +8,7 @@ from org.apache.lucene import store, queryparser
 from org.apache.lucene.index import DirectoryReader, Term
 from org.apache.lucene.analysis.standard import StandardAnalyzer
 import time
-# /root/data/index_dir/content_index
+
 
 def search_node(entity, searcher, node_n):
     # =========根据编号查询（字符串==========
